@@ -1,3 +1,4 @@
 coverage.txt
-raw-artillery-report.json
-visual-artillery-report.html
+e2e/e2e-result.txt
+load-testing/raw-artillery-report.json
+load-testing/visual-artillery-report.html
