@@ -6,7 +6,7 @@ This sample shows how to use the [Okteto CLI](https://github.com/okteto/okteto) 
 
 The [Okteto Manifest](https://www.okteto.com/docs/reference/okteto-manifest/) allows you to define how your tests look like, regardless of their kind: unit, integration, e2e, load, etc.
 
-In this sample, I've configured `unit`, `integration` and `load` tests. Check out the [okteto.yml](./okteto.yml) for the full manifest. Below, you can see the snippet related to the load testing with Artillery.
+In this sample, I've configured `unit`, `e2e` and `load` tests. Check out the [okteto.yml](./okteto.yml) for the full manifest. Below, you can see the snippet related to the load testing with Artillery.
 
 ```yaml
 test:
