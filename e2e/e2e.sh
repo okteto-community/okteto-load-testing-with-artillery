@@ -14,9 +14,9 @@ TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
 
 # Check if the response matches the expected content
 if [ "$RESPONSE" == "$EXPECTED" ]; then
-    echo "$TIMESTAMP - Test passed: Content is 'hello'"
+    echo "$TIMESTAMP - Test passed"
 else
-    echo "$TIMESTAMP - Test failed: Content is not 'hello'"
+    echo "$TIMESTAMP - Test failed"
     echo "$TIMESTAMP - Actual content: $RESPONSE"
     exit 1
 fi
