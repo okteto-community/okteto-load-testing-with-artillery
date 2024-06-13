@@ -12,4 +12,4 @@ test:
 
 .PHONY: clean
 clean:
-	rm coverage.txt unit-test-dynamic-artifact.txt unit-test-static-artifact.txt e2e/e2e-result.txt raw-artillery-report.json visual-artillery-report.html
+	rm coverage.txt load-testing/raw-artillery-report.json load-testing/visual-artillery-report.html e2e/e2e-result.txt
